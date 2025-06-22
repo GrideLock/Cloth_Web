@@ -98,3 +98,95 @@ button{
 .btn a:hover::before{
     width: 100%;
 }
+.more-info{
+    display: flex;
+}
+.section-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.fashiongonerogue.com%2Fwp-content%2Fuploads%2F2021%2F04%2FModel-Chic-Fashion-800x534.jpg&f=1&nofb=1&ipt=38ff6e04289c895f42ddb8c6015b4087dd398a77f6f310be11ee3d50a6caa32b');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    margin-top: 5%;
+}
+.section-div h2{
+    display: inline-block;
+    text-align: center;
+    max-width: 800px;
+    padding: 40px;
+    color: #ffffff;
+    
+}
+.section-div p{
+    color:  #ffffff;
+    font-size: 25px;
+    padding: 40px;
+    gap: 10px;
+}
+.section-div h2:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 20px rgba(234, 228, 228, 0.98);
+    cursor: pointer;
+    background-color: #B6F500;
+    margin: 5px;
+}
+.section-div p:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 20px rgba(234, 228, 228, 0.98);
+    cursor: pointer;
+    background-color: #B6F500;
+    margin: 5px;
+}
+
+img{
+    width: 600px;
+    height: 400px;
+    border-radius: 50px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #333446);
+    align-items: center;
+    text-align: center;
+    padding: 40px 50px;
+    border-radius: 50px;
+}
+.card h1{
+    color: #0065F8;
+    font-size: 40px;
+    font-weight: 500;
+}
+.card h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+.btn-button{
+    padding: 10px 20px;
+    margin: 5px 10px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    
+    
+}
+.btn-button a{
+    list-style: none;
+    text-decoration: none;
+    color: #333446;
+    padding: 10px 20px;
+}
+.btn-button a:hover{
+    color: #ffffff;
+    font-size: 25px;
+}
