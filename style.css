@@ -146,7 +146,7 @@ button{
     margin: 5px;
 }
 
-img{
+.card img{
     width: 600px;
     height: 400px;
     border-radius: 50px;
@@ -189,4 +189,81 @@ img{
 .btn-button a:hover{
     color: #ffffff;
     font-size: 25px;
+}
+.container{
+    background-color: #ddd;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 500px);
+    gap: 10px;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+.section-container{
+    background-color: #ffffff;
+    border: 2px solid #333;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.box{
+   background-color: #0065F8;
+   color: #fff;
+   font-size: 18px;
+   text-align: center;
+   padding: 20px;
+   border-radius: 50px;
+}
+.box:nth-child(even){
+    background-color: lime;
+}
+.section-container h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container img{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+.container img:hover{
+    width: 300px;
+    height: 300px;
+}
+.buy-now{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    background-color: #f00505;
+    width: 85%;   
+    border-radius: 50px;
+    color: #ffffff;
+}
+.add-cart{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    background-color: #16610E;
+    width: 85%;   
+    border-radius: 50px;
+    color: #ffffff;
+}
+ .add-cart:hover{
+    transition: all ease-in .3s;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: #333;
+
+}
+.buy-now:hover{
+    transition: all ease-in .3s;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: #333;
 }
